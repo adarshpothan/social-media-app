@@ -1,0 +1,93 @@
+*{
+    font-family: "Sora", sans-serif;
+    font-weight: 400; 
+}
+/* font */
+.sora-light {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;   
+  font-style: normal;
+}
+
+.sora-regular {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;   
+  font-style: normal;
+}
+
+.sora-medium {
+  font-family: "Sora", sans-serif;
+  font-weight: 500;   
+  font-style: normal;
+}
+
+.sora-semibold {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;  
+  font-style: normal;
+}
+
+.sora-bold {
+  font-family: "Sora", sans-serif;
+  font-weight: 900;   
+  font-style: normal;
+}
+
+:root {
+  --bg-color: #18191A;
+  --card-bg: #242526;
+  --text-color: #E4E6EB;
+  --hover-grad: linear-gradient(nulldeg,rgba(255, 255, 255, 1) 0%, rgba(247, 247, 247, 1) 17%, rgba(230, 223, 223, 1) 33%, rgba(255, 247, 247, 1) 47%, rgba(252, 240, 240, 1) 71%, rgba(255, 240, 240, 1) 86%, rgba(255, 247, 247, 1) 100%);
+  --light-gray: #494949;
+  --light-gray-hover: #5d5d5d;
+}
+.dropdown-toggle::after {
+    content:none;
+}
+
+.nre-main-black{
+    background-color:var(--bg-color);
+}
+.nre-main-text-white{
+    color: var(--text-color);
+}
+.nre-main-text-card{
+    color: var(--card-bg);
+}
+
+.nre-profile-main {
+  border: 1px solid var(--text-color);
+  transition:0.3s ease;
+}
+
+.nre-profile-main:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--hover-grad); 
+}
+.navbar-brand{
+    transition: all 0.3 ease;    
+}
+.navbar-brand:hover{
+    transition: all 0.3 ease; 
+    color: var(--hover-grad);   
+}
+.nre-light-gary{
+    background-color: var(--light-gray);
+}
+.nre-light-gary:hover{
+    background-color: var(--light-gray);
+    border: none;
+}
+.nre-light-gary:focus{
+    background-color: var(--light-gray);
+    box-shadow: none;
+}
+.btn-sicon{
+    border: none;
+}
+.nre-light-gary::placeholder{
+        color: var(--text-color);
+}
+.navbar-brand:hover{
+  color: var(--light-gray-hover);
+}
