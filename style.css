@@ -182,9 +182,9 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--light-gray-hover)
+  background: var(--light-gray-hover);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--light-gray-hover)
+  background: var(--light-gray-hover);
 }
