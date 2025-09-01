@@ -49,19 +49,24 @@
           type="submit"><i class=" nre-main-text-white fa-solid fa-magnifying-glass"></i></button>
       </form>
       <div class="dropdown">
-        <a class="d-flex align-items-center dropdown-toggle nre-profile-main rounded-5 p-1" href="./signin.html" role="button"
-          data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="d-flex align-items-center dropdown-toggle nre-profile-main rounded-5 p-1" href="./signin.html"
+          role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <img class="rounded-circle" src="./image/profiles/profile.png" alt="profile picture" width="40" height="40">
         </a>
         <ul class="dropdown-menu dropdown-menu-end mt-2 shadow">
-          <li><a class="dropdown-item sora-medium" href="./profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-bell"></i> Notification</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-message"></i> Messages</a></li>
+          <li><a class="dropdown-item sora-medium" href="./profile.html"><i class="fa-solid fa-user"></i> Profile</a>
+          </li>
+          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-gear"></i> Settings</a>
+          </li>
+          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-bell"></i>
+              Notification</a></li>
+          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-message"></i> Messages</a>
+          </li>
           <li>
             <hr class="dropdown-divider">
           </li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a>
+          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i>
+              Sign Out</a>
           </li>
         </ul>
       </div>
@@ -71,7 +76,7 @@
   <!-- nav bar end -->
   <div class="container-fluid mt-4">
     <div class="row">
-      
+
       <div class="col-12 col-lg-10 px-1">
         <!-- scrollll -->
         <div class="card-profile nre-light-gary rounded-3 p-3 w-100 overflow-auto" style="max-height: 90vh;">
@@ -110,7 +115,7 @@
                           <i class="fa-solid fa-heart"></i>
                         </button>
                         <button class="btn btn-sm text-white">
-                        <i class=" fa-solid fa-comment"></i>
+                          <i class=" fa-solid fa-comment"></i>
                         </button>
                         <button class="btn btn-sm text-white">
                           <i class="fa-solid fa-paper-plane"></i>
@@ -652,6 +657,53 @@
             </div>
           </div>
           <!-- postend -->
+          <!-- ffoter start -->
+          <footer class="footer mt-5 text-light bg-dark p-5 rounded-3">
+            <div class="container ">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <h5 class="fw-bold">NRE</h5>
+                  <p class="text-secondary small">
+                    A new way to connect, share, and grow.
+                    Social made simple. Authentic. Real. For everyone.
+                  </p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                  <h6 class="fw-bold">Explore</h6>
+                  <ul class="list-unstyled small">
+                    <li><a href="{{ url_for('index') }}" class="text-secondary text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Feed</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Trending</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Communities</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                  <h6 class="fw-bold">Support</h6>
+                  <ul class="list-unstyled small">
+                    <li><a href="#" class="text-secondary text-decoration-none">Help Center</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Terms of Service</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 text-lg-end">
+                  <h6 class="fw-bold">Connect with us</h6>
+                  <div class="d-flex justify-content-lg-end gap-3">
+                    <a href="#" class="text-secondary"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-secondary"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                    <a href="#" class="text-secondary"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-secondary"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-4 text-secondary">
+              <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center text-secondary small">
+                <p class="mb-0">&copy; 2025 NRE. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+          <!-- footer end -->
         </div>
         <!-- button mb -->
         <div class="mob-btn-div p-4 rounded-top-4 d-lg-none justify-content-around d-flex ">
@@ -719,5 +771,7 @@
 
     </div>
   </div>
+
 </body>
+
 </html>
