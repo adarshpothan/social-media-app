@@ -295,3 +295,23 @@
 .profile-name-post{
   margin-left: 150px;
 }
+.sign-body{
+  background-image:url(./image/sign-bg.png);
+  height: 100vh;
+}
+.sign-card{
+  width: 75%;
+  max-width: 350px;
+  min-width: 350px;
+  background-color: rgb(56, 56, 56);
+  height: 70%;
+  box-shadow: rgb(33, 33, 33) 2px 2px 15px;
+  color: whitesmoke;
+}
+.nre-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sign-card-img{
+
+}
