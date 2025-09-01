@@ -176,15 +176,92 @@
   font-size: 0.9rem;
 }
 ::-webkit-scrollbar {
-  width: 6px;
+  display: none;
 }
-::-webkit-scrollbar-track {
-  background: transparent;
+.nre-post{
+  background-color: var(--card-bg);
 }
-::-webkit-scrollbar-thumb {
-  background: var(--light-gray-hover);
-  border-radius: 3px;
+.posting-div-nre{
+  background-color: var(--light-gray);
+  color: var(--text-color);
 }
-::-webkit-scrollbar-thumb:hover {
-  background: var(--light-gray-hover);
+.search-area-prof{
+  width: 50px;
+}
+
+.post-ibx {
+  width: 100%;
+  font-size: 14px;
+  padding: 12px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;          
+  transition: all 0.3s ease;
+}
+
+
+.post-ibx::placeholder {
+  font-size: medium;
+  font-weight: 300;
+  padding: 20px;          
+  opacity: 0.8;
+}
+
+.post-ibx:focus {
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #007bff;  
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+  outline: none;
+  color:var(--card-bg);
+}
+.post-ibx:not(:placeholder-shown) {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--light-gray);
+}
+
+.post-btn {
+  background-color:transparent;   
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border:#3c3c3c 4px solid;
+  border-radius: 12px;         
+  transition: all 0.3s ease;
+}
+
+.post-btn:hover {
+  background-color: #5c5c5c;   
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(109, 109, 109, 0.3);
+}
+
+.post-btn:active {
+  background-color: #636363;
+  transform: translateY(0);
+  box-shadow: none;
+}
+.mob-btn-div{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--light-gray);
+  color: var(--text-color);
+}
+@media (min-width: 992px) {  
+  .card-profile {
+    max-height: 72vh;
+    overflow-y: auto; 
+  }
+}
+.bottom-setting{
+  position: fixed;
+  bottom: 0;
+  width: 14%;
+}
+.main-btn-div{
+  height: 100%;
 }
