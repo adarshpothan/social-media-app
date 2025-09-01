@@ -58,6 +58,9 @@
 .nre-main-text-card {
   color: var(--card-bg);
 }
+.nre-main-card {
+  background-color: var(--card-bg);
+}
 
 .nre-profile-main {
   border: 1px solid var(--text-color);
@@ -264,4 +267,31 @@
 }
 .main-btn-div{
   height: 100%;
+}
+.prof-page-body-bg{
+  background-color:#1f1f1f;
+  height: 100vh;
+  border-top: #2d2d2d 1px solid;
+}
+.profile-top-section{
+  height: 300px;
+  position: relative;
+}
+.profile-page-img{
+  width: 15%;
+  border-radius: 50%;
+  border: #18191a 4px solid;
+  position: absolute;
+  bottom: 32%;
+  margin-left: 30px;
+  min-width: 100px;
+  max-width: 110px;
+}
+
+.profile-banner{
+  height: 50%;
+  
+}
+.profile-name-post{
+  margin-left: 150px;
 }
