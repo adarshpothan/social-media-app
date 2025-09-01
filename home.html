@@ -49,19 +49,19 @@
           type="submit"><i class=" nre-main-text-white fa-solid fa-magnifying-glass"></i></button>
       </form>
       <div class="dropdown">
-        <a class="d-flex align-items-center dropdown-toggle nre-profile-main rounded-5 p-1" href="./signin.html" role="button"
+        <a class="d-flex align-items-center dropdown-toggle nre-profile-main rounded-5 p-1" href="#" role="button"
           data-bs-toggle="dropdown" aria-expanded="false">
-          <img class="rounded-circle" src="./image/profiles/profile.png" alt="profile picture" width="40" height="40">
+          <img class="rounded-circle" src="./image/profiles/profile2.png" alt="profile picture" width="40" height="40">
         </a>
         <ul class="dropdown-menu dropdown-menu-end mt-2 shadow">
           <li><a class="dropdown-item sora-medium" href="./profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-bell"></i> Notification</a></li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-message"></i> Messages</a></li>
+          <li><a class="dropdown-item sora-medium" href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+          <li><a class="dropdown-item sora-medium" href="#"><i class="fa-solid fa-bell"></i> Notification</a></li>
+          <li><a class="dropdown-item sora-medium" href="#"><i class="fa-solid fa-message"></i> Messages</a></li>
           <li>
             <hr class="dropdown-divider">
           </li>
-          <li><a class="dropdown-item sora-medium" href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a>
+          <li><a class="dropdown-item sora-medium" href="#"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a>
           </li>
         </ul>
       </div>
@@ -71,10 +71,220 @@
   <!-- nav bar end -->
   <div class="container-fluid mt-4">
     <div class="row">
-      
-      <div class="col-12 col-lg-10 px-1">
+      <!-- profile start -->
+      <div class="col-lg-2 container d-none d-lg-block justify-content-center p-0 h-100">
+        <div class="card-profile nre-light-gary rounded-top-3 p-3 w-100">
+          <h5 class="sora-medium mb-4 nre-main-text-white">Profile</h5>
+          <hr class="border-white">
+        </div>
+        <!-- inside -->
+        <div class="card-profile nre-light-gary rounded-bottom-3 p-3 w-100 h-100 overflow-auto"
+          style="max-height: 74vh;">
+
+          <!-- Card Header -->
+          <div class="main-p-card mb-3 text-center">
+            <div class="d-flex justify-content-center">
+              <img class="w-50 rounded-circle shadow-sm" src="./image/profiles/profile2.png"
+                alt="Profile picture of Profile name">
+            </div>
+            <button class="btn btn-sm text-white my-0 fs-4 sora-semibold" onclick="window.location.href='./profile.html'">
+            Profile Name
+            </button>
+            <br>
+            <button class="btn btn-sm text-white my-0">
+            <i class=" text-secondary fa-solid fa-pen-to-square fs-6"></i>
+            </button>
+            <p class="sora-light mt-0 text-muted mb-3">@username</p>
+            <div class="row">
+              <div class="col-6 text-center nre-main-text-white">
+                <h6>POST: 453</h6>
+              </div>
+              <div class="col-6 text-center nre-main-text-white">
+                <h6>LIKE: 3M</h6>
+              </div>
+            </div>
+            <p class="text-center mt-1 pro-discri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A expedita
+              esse
+              architecto accusamus.</p>
+          </div>
+          <!-- profile -->
+          <hr class="border-white mb-2">
+          <!-- tc -->
+          <div class="trending-creators">
+            <h6 class="sora-medium nre-main-text-white mt-4 mb-3">Suggested for you</h6>
+
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile1.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile2.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile3.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile4.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile5.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile6.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile7.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+          </div>
+          <!-- tc -->
+          <div class="trending-creators">
+            <h6 class="sora-medium nre-main-text-white mt-4 mb-3">Trending creators</h6>
+
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile1.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile5.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile3.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile2.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile1.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile7.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile2.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+            <!--card friend -->
+            <div class="card bg-dark text-white mb-2 border-0 rounded-3 p-2 d-flex flex-row align-items-center gap-2">
+              <img src="./image/profiles/profile4.png" alt="Profile picture of username" class="rounded-3 w-25">
+              <div class="d-flex flex-column flex-grow-1">
+                <h6 class="mb-1 fw-semibold">username</h6>
+                <button class="btn btn-primary btn-sm w-100">Follow</button>
+              </div>
+            </div>
+            <!-- card firends end -->
+          </div>
+          <!-- end of sugetion -->
+        </div>
+        <!-- inside -->
+      </div>
+      <div class="col-12 col-lg-8 px-1">
+        <div class="posting-div-nre p-2 container mb-1 rounded-3 d-none d-lg-block">
+          <div class="d-flex gap-2">
+            <img class="search-area-prof rounded-circle shadow" src="./image/profiles/profile2.png" alt="">
+            <input class=" post-ibx border-0 nre-main-text-white rounded-5 ms-0" type="search"
+              placeholder="What is in your mind" aria-label="Search" />
+          </div>
+          <div class="d-flex justify-content-between align-content-center mt-1 container">
+            <div class="file-icons align-content-center text-center ms-5">
+              <i class="fa-solid fa-image fs-5"></i>
+              <i class="fa-solid fa-paperclip fs-5"></i>
+            </div>
+            <button class="post-btn px-2 py-1 rounded-3 me-3">Post</button>
+          </div>
+
+        </div>
         <!-- scrollll -->
-        <div class="card-profile nre-light-gary rounded-3 p-3 w-100 overflow-auto" style="max-height: 90vh;">
+        <div class="card-profile nre-light-gary rounded-3 p-3 w-100 overflow-auto">
           <h2 class="sora-bold mb-0 nre-main-text-white">Feed</h2>
           <hr class="border-white">
           <!-- poststart -->
@@ -95,15 +305,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -143,15 +353,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -192,15 +402,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -240,15 +450,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -288,15 +498,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -336,15 +546,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -384,15 +594,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -432,15 +642,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -480,15 +690,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -528,15 +738,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -576,15 +786,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
@@ -624,15 +834,15 @@
                   <div class="card-body p-3 d-flex flex-column justify-content-between">
                     <p class="fw-bold mb-2">1,452 likes</p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="fw-bold text-white text-decoration-none">username</a>
+                      <a href="#" class="fw-bold text-white text-decoration-none">username</a>
                       Just another beautiful day in the city! Feeling inspired by the view.
                     </p>
                     <p class="mb-2">
-                      <a href="./signin.html" class="text-primary text-decoration-none">#cityscape</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#inspiration</a>
-                      <a href="./signin.html" class="text-primary text-decoration-none">#travelgram</a>
+                      <a href="#" class="text-primary text-decoration-none">#cityscape</a>
+                      <a href="#" class="text-primary text-decoration-none">#inspiration</a>
+                      <a href="#" class="text-primary text-decoration-none">#travelgram</a>
                     </p>
-                    <a href="./signin.html" class="text-muted text-decoration-none">View all 8 comments</a>
+                    <a href="#" class="text-muted text-decoration-none">View all 8 comments</a>
                     <div class="d-flex justify-content-between align-items-center mb-2">
                       <div class="d-flex gap-3">
                         <button class="btn btn-sm text-white">
